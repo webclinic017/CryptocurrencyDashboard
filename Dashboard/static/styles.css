@@ -1,0 +1,81 @@
+.chart {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#balances {
+    float: right;
+    padding: 3em;
+}
+
+#chart {
+    left: 100px !important;
+}
+
+#balances, #buy {
+    border: solid gray 1px; 
+    padding: 20px; 
+    margin-top: 20px;
+    width: 15em;
+    overflow:scroll; 
+    height:50em;
+}
+
+#buy {
+    width: 25em;
+}
+
+#chart-nav {
+    padding-top: 4em;
+    width: 1200px !important;
+}
+
+.switcher {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	margin-top: 8px;
+	color: #2196F3;
+}
+
+.switcher-item {
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	padding: 6px 8px;
+	font-size: 14px;
+	color: #262b3e;
+	background-color: transparent;
+	margin-right: 8px;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+}
+
+.switcher-item:hover {
+	background-color: #f2f3f5;
+}
+
+.switcher-active-item {
+	text-decoration: none;
+	cursor: default;
+	color: #262b3e;
+}
+
+.switcher-active-item,
+.switcher-active-item:hover {
+	background-color: #e1eff9;
+}
+
+#chart-nav, .tv-lightweight-charts {
+    padding-left: 10em;
+}
+
+.balances {
+    padding-top: 1em;
+    padding-right: 12em;
+}
